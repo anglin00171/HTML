@@ -1,0 +1,44 @@
+
+.image-content {
+    display: flex;
+    text-align: left;
+    padding: 5%;
+    float: right;
+  }
+  
+  .image {
+    max-width: 30%;
+    margin: auto;
+    text-align: left;
+    display: flex;
+
+  }
+
+
+  .custom-image {
+    display: flex;
+    margin: auto;
+    max-width: 30%;
+    float: left;
+    
+ }
+
+ img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+ }
+
+ @media (max-width: 768px)
+ .image-content {
+    padding: 2%
+ }
+
+ .image {
+    max-width: 100%;
+
+ }
+
+ .custom-image {
+    max-width: 100%;
+ }

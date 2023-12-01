@@ -1,0 +1,160 @@
+body {
+    background-color: #1e001e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #dadcdc;
+    font: 18px;
+    text-align: left;
+}
+
+h1,h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+}
+
+nav {
+
+            padding: 25px;
+            margin-left: auto;
+            display: flex;
+            align-items: center ;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 14%;
+
+}
+
+@media (max-width: 768px) {
+    .nav align-self: start;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.button {
+    height: fit-content;
+    padding-left: 10%;
+    
+    
+    
+
+    
+}
+
+.navbar {
+    background-color: #333333;
+    padding: 0px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.cart {
+    position: relative;
+    float: right;
+    margin-right: -25px;
+    margin-top: -28px;
+    color: #fefafa;
+    width: 55px;
+    font-size: 21px;
+
+
+
+}
+.search-bar {
+     max-width: 200px;
+     display: flex;
+     align-items: center;
+     border: none;
+     padding: 0px;
+     margin-left: auto;
+     margin-top: -45px;
+     color: #f3aef0
+    
+    
+   
+ } 
+
+.search-input {
+        width: 150px;
+        border-style: none;
+        padding: 4px;
+        margin-right: -20px;
+        color: #fb55fa;
+        border-radius: 5px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 24px;
+    cursor: pointer;
+    color: #fb55fa;
+}
+
+body main {
+      text-align: left;
+}
+
+@media (max-width: 768px) {
+    .search-bar {
+    margin-left: 20px ;
+    margin-top: 5px;
+    }
+    }
+
+@media (max-width: 768px) {
+    .cart {
+    margin-left: 20;
+    margin-top: -77px;
+    }
+}
+
+.active {
+    background-color: #fb55fa;
+    color: #FFFFFF ;
+    border-radius: 5px;
+
+    
+}
+
+footer::after{
+    content: '/' ;
+    color: purple;
+    font-size: 100%;
+    float: right;
+}
+
+footer p {
+    font-size: 12px;
+    color: bisque;
+    margin: 0%;
+    padding: 0%;
+    float: inline-end;
+
+
+}
+
+footer .copyright {
+    font-size: 12px;
+    float: right;
+    margin-bottom: auto;
+    height: auto;
+    padding: 5%;
+}
+
