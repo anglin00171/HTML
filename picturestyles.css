@@ -1,46 +1,27 @@
 
 .image-content {
-    display: flexbox;
-    text-align: left;
-    padding: 10%;
+    display: flex;
+    padding: 0;
     float: right;
-    max-width: 70%;
-    margin: auto;
-    max-height: 100%;
+    max-width: 100%;
+    margin: 5%;
   }
   
 
- @media (max-width: 768px)
+ @media (max-width: 768px) {
  .image-content {
-    padding: 2%
+    padding: 0;
+ }
  }
 
 
- .custom-image1 {
-   max-width: 80px;
-   text-align: left;
-   float: left;
-
-
- }
-
- .custom-image2 {
-   max-width: 80px;
-   text-align: left;
-   float: left;
-
- }
-
- .custom-image3 {
-   max-width: 80px;
-   text-align: left;
-   float: left;
- }
-
+ .custom-image1,
+ .custom-image2,
+ .custom-image3,
  .custom-image4 {
    max-width: 80px;
-   text-align: left;
-   float: left;
+   margin: 0%;
+   padding: 0%;
    
  }
 
