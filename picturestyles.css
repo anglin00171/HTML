@@ -1,44 +1,56 @@
 
 .image-content {
-    display: flex;
+    display: flexbox;
     text-align: left;
-    padding: 5%;
+    padding: 10%;
     float: right;
+    max-width: 70%;
+    margin: auto;
+    max-height: 100%;
   }
   
-  .image {
-    max-width: 30%;
-    margin: auto;
-    text-align: left;
-    display: flex;
-
-  }
-
-
-  .custom-image {
-    display: flex;
-    margin: auto;
-    max-width: 30%;
-    float: left;
-    
- }
-
- img {
-    height: auto;
-    width: 100%;
-    max-width: 100%;
- }
 
  @media (max-width: 768px)
  .image-content {
     padding: 2%
  }
 
- .image {
-    max-width: 100%;
+
+ .custom-image1 {
+   max-width: 80px;
+   text-align: left;
+   float: left;
+
 
  }
 
- .custom-image {
-    max-width: 100%;
+ .custom-image2 {
+   max-width: 80px;
+   text-align: left;
+   float: left;
+
  }
+
+ .custom-image3 {
+   max-width: 80px;
+   text-align: left;
+   float: left;
+ }
+
+ .custom-image4 {
+   max-width: 80px;
+   text-align: left;
+   float: left;
+   
+ }
+
+
+ .background-image {
+   background-image: url(images/istock-about.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding: 30px;
+   box-sizing:border-box;
+
+}

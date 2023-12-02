@@ -1,14 +1,14 @@
 body {
     background-color: #1e001e;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #dadcdc;
-    font: 18px;
     text-align: left;
+    font: 18px
+
 }
 
 h1,h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 nav {
@@ -109,6 +109,8 @@ nav ul {
 
 body main {
       text-align: left;
+      color: #000000;
+      margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -157,4 +159,3 @@ footer .copyright {
     height: auto;
     padding: 5%;
 }
-
