@@ -49,18 +49,19 @@ nav ul {
 }
 
 .button {
-    height: fit-content;
-    padding-left: 10%;
+float: inline-end;
     
-    
-    
+}
 
+@media (max-width: 768px) {
+    .button {
     
+    }
 }
 
 .navbar {
     background-color: #333333;
-    padding: 0px;
+    padding: 0;
     color: #FFFFFF;
     text-align: left;
 }
@@ -74,22 +75,19 @@ nav ul {
     width: 55px;
     font-size: 21px;
 
-
-
 }
-.search-bar {
-     max-width: 200px;
-     display: flex;
-     align-items: center;
-     border: none;
-     padding: 0px;
-     margin-left: auto;
-     margin-top: -45px;
-     color: #f3aef0
-    
-    
+
+ #search-bar {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0;
+    margin-left: auto;
+    margin-top: -45px;
+    color: #f3aef0
    
- } 
+}
 
 .search-input {
         width: 150px;
@@ -100,17 +98,19 @@ nav ul {
         border-radius: 5px;
 }
 
-.search-icon {
+#search-icon {
     width: 20px;
     height: 24px;
     cursor: pointer;
     color: #fb55fa;
+
 }
 
 body main {
       text-align: left;
       color: #000000;
       margin: 0;
+      
 }
 
 @media (max-width: 768px) {
