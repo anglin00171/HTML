@@ -8,23 +8,37 @@
   }
   
 
- @media (max-width: 768px) {
- .movie-images1 { 
-   float: right;
-   
- }
+ @media (max-width: 768px)
+ .image-content {
+    padding: 2%
  }
 
 
- .custom-image1,
- .custom-image2,
- .custom-image3,
+ .custom-image1 {
+   max-width: 80px;
+   text-align: left;
+   float: left;
+
+
+ }
+
+ .custom-image2 {
+   max-width: 80px;
+   text-align: left;
+   float: left;
+
+ }
+
+ .custom-image3 {
+   max-width: 80px;
+   text-align: left;
+   float: left;
+ }
+
  .custom-image4 {
    max-width: 80px;
-   margin: 0%;
-   padding: 0%;
-   height: auto;
-   width: 100%;
+   text-align: left;
+   float: left;
    
  }
 
