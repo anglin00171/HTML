@@ -8,8 +8,8 @@
   }
   
 
- @media (max-width: 768px)
- .image-content {
+ @media (max-width: 768px) {
+  .image-content 
     padding: 2%
  }
 
@@ -49,16 +49,22 @@
    background-repeat: no-repeat;
    background-attachment: fixed;
    padding: 30px;
+   min-height: 400px;
 
 }
 
 .background-image2 {
    background-image: url(images/camera-sky-contact.jpg);
    background-size: cover;
+   padding: 30px;
+   background-repeat: no-repeat;
+   max-width: 100%;
+   min-height: 400px;
+   background-attachment: fixed;
 }
  
 .movie-images1 {
-   width: 50%;
+   width: 100%;
    height: auto;
    float: right;
    scale: 50%;
@@ -69,13 +75,22 @@
    width: 100%;
    height: auto;
    float: right;
+   scale: 50%;
 
 }
 
 .movie-images3 {
+  width: 100%;
+   height: auto;
+   float: right;
+   scale: 50%;
 
 }
 
 .movie-images4 {
+  width: 100%;
+   height: auto;
+   float: right;
+   scale: 50%;
 
 }
