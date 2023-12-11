@@ -1,59 +1,126 @@
 body {
     background-color: #1e001e;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: 'Exo 2', Tahoma, Geneva, Verdana, sans-serif;
     
-    
-}
+    }
+
+    .logo {
+        width: 10%;
+        height: auto;
+        padding-top: 0.4em;
+    }
+
+    header {
+        height: auto;
+        width: 100%;
+    }
+
+/*Container is to aboutndcontact page*/
+
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0px;
-
-}
-
-.container p {
+    font-family: "Exo 2", Verdana, Geneva, Tahoma, sans-serif
     text-align: left;
     line-height: 1.1;
-    color: #ffffff;
+    color: #ffff;
+    width: 13em;
+    padding-left: 5em;
+    padding-top: 4em;
 
 }
 
+.container h1 {
+    color: #9e0096;
+}
+
+.container h2 {
+    color: #9e0096;
+    font-family: "arima", Verdana, Geneva, Tahoma, sans-serif
+}
+
+.white-label {
+    width: 20em;
+    padding-left: 45em;
+    padding-bottom: 10em;
+    color: #FFFFFF;
+}
+
+.white-contact-text {
+    width: 20em;
+    padding-left: 40em;
+    padding-bottom: 2em;
+    color: #FFFFFF;
+
+}
+
+/*white, purple, h4 and item is to cart pages*/
+
+.white {
+    color: #FFFFFF;
+  
+}
+
+.purple {
+    color: #fb55fa;
+    width: 13em;
+    padding-left: 32em;
+    padding-top: 2em;
+
+}
+
+h4 {
+    padding-left: 32em;
+}
+
+.total-item {
+    padding-left: 32em;
+    color: #ffff;
+}
+
+
+/*This is to the Index page*/
+
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Exo 2', Arial, verdana, sans-serif;
     color: #FFFFFF;
     font-size: 40px;
 }
-
+  
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Exo 2", Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
 }
 
 nav {
-
-            padding: 0px;
-            margin-left: auto;
-            display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 1em;
+    padding-left: 0.8em;
+    padding-bottom: 1.2em;
 }
 
+
 nav li {
-    display: inline-block;
-    margin-right: 60px;
+    margin: 0;
+    width: 8%;
+    height: auto;
+    padding: 0;
+
+
+    
 }
 
 nav a {
     color: #FFFFFF;
     text-decoration: none;
-    padding: 14%;
+    padding: 0.4em;
 
 }
 
-@media (max-width: 768px) {
-    .nav align-self: start;
-    margin-left: 20px;
-    margin-top: 5px;
+.active {
+    background-color: #fb55fa;
+    color: #FFFFFF ;
+    border-radius: 0.2em;
+
+    
 }
 
 nav a:hover {
@@ -62,107 +129,64 @@ nav a:hover {
 
 nav ul {
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     display: flex;
 }
-
-.button {
-float: inline-end;
-color: #FFFFFF;
-    
-}
-
-@media (max-width: 768px) {
-    .button {
-    
-    }
-}
-
 
 .cart {
-    position: relative;
-    float: right;
-    margin-right: -25px;
-    margin-top: -28px;
     color: #fefafa;
-    width: 55px;
-    font-size: 21px;
+    width: 4%;
+    font-size: 1.5em;
+    height: auto;
+    float: right;
 
 }
 
- #search-bar {
-    max-width: 200px;
-    display: flex;
-    align-items: center;
-    border: none;
-    padding: 0;
-    margin-left: auto;
-    margin-top: -45px;
+#search-bar {
+    max-width: 190px;
+    width: 10em;
+    float: right;
     color: #f3aef0
    
 }
 
 .search-input {
-        width: 150px;
+        width: 12em;
         border-style: none;
-        padding: 4px;
-        margin-right: -20px;
-        border-radius: 5px;
+        border-radius: 0;
 }
 
 #search-icon {
-    width: 20px;
-    height: 24px;
+    width: 0;
+    height: auto;
     cursor: pointer;
     color: #fb55fa;
 
 }
 
-
-@media (max-width: 768px) {
-    .search-bar {
-    margin-left: 20px ;
-    margin-top: 5px;
-    }
-    }
-
-@media (max-width: 768px) {
-    .cart {
-    margin-left: 20;
-    margin-top: -77px;
-    }
-}
-
-.active {
-    background-color: #fb55fa;
-    color: #FFFFFF ;
-    border-radius: 5px;
-
-    
-}
-
-footer::after{
-    content: '/' ;
-    color: purple;
-    font-size: 100%;
-    float: right;
+.button {
+    color: #ffff;
+    font-size: 20px;
 }
 
 footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
     color: bisque;
     margin: 0%;
-    padding: 0%;
-    float: inline-end;
+    text-align: right;
+    
 
 
 }
 
 footer .copyright {
     font-size: 12px;
-    float: right;
-    margin-bottom: auto;
-    height: auto;
-    padding: 5%;
+    text-align: right;
+}
+
+.imdb {
+    text-align: right;
+    font-style: italic;
 }

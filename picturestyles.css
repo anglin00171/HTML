@@ -1,54 +1,67 @@
 
-.image-content {
+/* Index1 is the landing page*/
+
+  .background-index1 {
+    background-image: url(images/istock-purple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+  .text-index1 {
+    color: #ffff;
     display: flex;
-    padding: 0;
-    float: right;
-    max-width: 100%;
-    margin: 5%;
+    
   }
-  
 
- @media (max-width: 768px) {
-  .image-content 
-    padding: 2%
+  /*This is the movies on index page*/
+
+  .movies-index1 {
+    height: auto;
+    display: flex;
+  }
+
+  .logo-big-index {
+    height: auto;
+    width: 20em
+  }
+
+.movie-images1,
+.movie-images2,
+.movie-images3,
+.movie-images4, a {
+  text-decoration: none;
+  list-style: none;
+  color: #fa87fa;
+
+}
+
+.movie-images1 {
+  width: 15em;
+}
+ .movie-images2 {
+  width: 15em;
  }
 
-
- .custom-image1 {
-   max-width: 80px;
-   text-align: left;
-   float: left;
-
-
+ .movie-images3 {
+  width: 15em;
  }
 
- .custom-image2 {
-   max-width: 80px;
-   text-align: left;
-   float: left;
-
+ .movie-images4 {
+  width: 15em;
  }
 
- .custom-image3 {
-   max-width: 80px;
-   text-align: left;
-   float: left;
+ .white-movies {
+  width: 13em;
+  padding-left: 6em;
+  padding-top: 4em;
+  color: #ffff;
  }
-
- .custom-image4 {
-   max-width: 80px;
-   text-align: left;
-   float: left;
-   
- }
-
-
  .background-image1 {
    background-image: url(images/istock-about.jpg);
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
-   padding: 30px;
+   padding: 2em;
    min-height: 400px;
 
 }
@@ -56,41 +69,69 @@
 .background-image2 {
    background-image: url(images/camera-sky-contact.jpg);
    background-size: cover;
-   padding: 30px;
+   padding: 2em;
    background-repeat: no-repeat;
-   max-width: 100%;
+   max-width: auto;
    min-height: 400px;
-   background-attachment: fixed;
-}
- 
-.movie-images1 {
-   width: 100%;
-   height: auto;
-   float: right;
-   scale: 50%;
-
 }
 
-.movie-images2 {
-   width: 100%;
-   height: auto;
-   float: right;
-   scale: 50%;
+
+/* This is contact-submit page*/
+
+.background-image3 {
+  background-image: url(images/earth.jpg);
+  background-size: cover;
+  min-height: 40em;
+}
+
+.semi-circle {
+  border-radius: 50%;
+  height: auto;
+  width: 30em;
+  
+}
+
+.map-circle {
+    padding-left: 42em;
+    padding-bottom: 8em;
+}
+
+/*This is 4 small images down at the footer*/
+
+.custom-image1,
+.custom-image2,
+.custom-image3,
+.custom-image4 {
+  width: 5em;
+  float: left;
+
 
 }
 
-.movie-images3 {
-  width: 100%;
-   height: auto;
-   float: right;
-   scale: 50%;
+/*This is images in the 4 cart pages*/
 
+.transformers {
+  width: 13em;
+  padding-left: 32em;
+  padding-top: 2em;
 }
 
-.movie-images4 {
-  width: 100%;
-   height: auto;
-   float: right;
-   scale: 50%;
-
+.margaret {
+  width: 13em;
+  padding-left: 32em;
+  padding-top: 2em;
 }
+
+.radical {
+  width: 13em;
+  padding-left: 32em;
+  padding-top: 2em;
+}
+
+.savages {
+  width: 13em;
+  padding-left: 32em;
+  padding-top: 2em;
+}
+
+
