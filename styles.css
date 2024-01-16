@@ -18,6 +18,7 @@ main {
     width: 10em;
     height: auto;
     padding-top: 0.4em;
+    padding-left: 0.5em;
     }
 
     header {
@@ -26,7 +27,7 @@ main {
     background-color: #000;
     }
 
-/*Container is to aboutndcontact page*/
+/*Container is to about nd contact page*/
 
 .container {
     font-family: "Exo 2", Verdana, Geneva, Tahoma, sans-serif
@@ -39,21 +40,17 @@ main {
 }
 
 .container
-    h1 {
-    color: #9e0096;
-}
-
-.container
+    h1,
     h2 {
     color: #9e0096;
     font-family: "arima", Verdana, Geneva, Tahoma, sans-serif}
 
 /*This is for contact info and.sign-up-matterful*/
 
-/*white-label */
-    /* width: 13em; */
-    /* padding-left: 45em; */
-    /* padding-bottom: 2em; */
+.white-label
+width: 13em;
+padding-left: 45em;
+padding-bottom: 2em;
   
 
 .sign-up-matterful {
@@ -102,30 +99,28 @@ main {
 /*This is to all h1-h6*/
     h1 {
     font-family: 'Exo 2', Arial, verdana, sans-serif;
-    color: #ffff;
     font-size: 32px;
     margin-left: 0.5em;
 }
     h2 {
     font-family: "Exo 2", Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
-    font-size: 14px;
+    font-size: 20px;
+    color: #000;
     
 }
-    h3 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
     color: #ffff;
 
 }
     h4 {
-    color: #ffff;
     font-size: 14px;
 }
-    h5 {
-    color: #ffff;
-}
-    h6 {
-    color: #ffff;
-}
+    
     aside p {
     font-size: 13px;
     color: #B7AA91;
@@ -241,14 +236,16 @@ aside {
 }
 
 .cart {
+
+    display: flex;
     color: #fefafa;
     font-size: 1.5em;
     cursor: pointer;
     max-width: 100%;
     height: auto;
-    float: right;
 
 }
+
 footer {
     background-color: #000;
 }
