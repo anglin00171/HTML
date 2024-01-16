@@ -5,74 +5,140 @@
     background-image: url(images/istock-purple.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
-}
-
-  .text-index1 {
-    color: #ffff;
-    display: flex;
-    
-  }
-
-  /*This is the movies on index page*/
-
-  .movies-index1 {
+    max-width: 100%;
     height: auto;
-    display: flex;
-  }
 
-  .logo-big-index {
+}
+
+#sidelight {
+  max-width: 100%;
+  height: 20em;
+
+}
+
+#logo-big-index {
+  /* margin-left: -30em; */
+  /* padding: 2em 2em 4em 3em; */
+  width: 22em;
+  max-width: 100%;
+  height: auto;
+  margin-left: 1em;
+  
+}
+
+/*This is the movies an h2 text on index page*/
+
+.talkexcrerad-text {
+  display: flex;
+  /* margin-left: 42em; */
+  /* margin-top: 1em; */
+  max-width: 100%;
+  height: auto;
+  margin-left: 1.5em;
+  
+}
+
+.talkexcrerad-text h2 {
+  color: #ffff;
+}
+
+.talkexcrerad {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  float: right;
+  margin-bottom: 1em;
+  
+  
+
+  
+}
+@media (max-width: 600px) {
+  .talkexcrerad {
+    
+  }
+}
+
+  #talk {
+    width: 9.6em;
+    margin: 1px;
+    max-width: 100%;
     height: auto;
-    width: 20em
+    
   }
 
-.movie-images1,
-.movie-images2,
-.movie-images3,
-.movie-images4, a {
-  text-decoration: none;
-  list-style: none;
-  color: #fa87fa;
+  #creator {
+    width: 8em;
+    margin: 1px;
+    max-width: 100%;
+    height: auto;
+  }
 
-}
+  #radical {
+    width: 8.1em;
+    margin: 1px;
+    max-width: 100%;
+    height: auto;
+  }
 
-.movie-images1 {
-  width: 15em;
-}
- .movie-images2 {
-  width: 15em;
- }
-
- .movie-images3 {
-  width: 15em;
- }
-
- .movie-images4 {
-  width: 15em;
- }
+  #ex {
+    width: 7.9em;
+    margin: 1px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /*white movies is on the movie page*/
 
  .white-movies {
-  width: 13em;
-  padding-left: 6em;
-  padding-top: 4em;
+  font-size: 18px;
   color: #ffff;
+  max-width: 100%;
+  height: auto;
+
  }
+
+ .movie-images1,
+ .movie-images2,
+ .movie-images3,
+ .movie-images4 {
+  width: 13em;
+  max-width: 100%;
+  height: auto;
+ }
+
+ #trans {
+  width: 11em;
+  max-width: 100%;
+  height: auto;
+ }
+
+ #sav {
+  width: 11em;
+  max-width: 100%;
+  height: auto;
+ }
+
+/* about page*/
+
  .background-image1 {
    background-image: url(images/istock-about.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    padding: 2em;
    min-height: 400px;
+   max-width: 100%;
 
 }
 
 .background-image2 {
    background-image: url(images/camera-sky-contact.jpg);
    background-size: cover;
-   padding: 2em;
+   /* padding: 2em; */
    background-repeat: no-repeat;
-   max-width: auto;
+   max-width: 100%;
    min-height: 400px;
+   height: auto;
 }
 
 
@@ -81,19 +147,22 @@
 .background-image3 {
   background-image: url(images/earth.jpg);
   background-size: cover;
-  min-height: 40em;
+  height: auto;
+  max-width: 100%;
 }
 
 .semi-circle {
   border-radius: 50%;
   height: auto;
   width: 30em;
+  max-width: 100%;
   
 }
 
 .map-circle {
-    padding-left: 42em;
-    padding-bottom: 8em;
+    max-width: 100%;
+    height: auto;
+    text-align: right;
 }
 
 /*This is 4 small images down at the footer*/
@@ -102,36 +171,34 @@
 .custom-image2,
 .custom-image3,
 .custom-image4 {
-  width: 5em;
-  float: left;
-
-
+  height: auto;
+  max-width: 100%;
+  width: 15em;
 }
 
-/*This is images in the 4 cart pages*/
-
-.transformers {
-  width: 13em;
-  padding-left: 32em;
-  padding-top: 2em;
+/*This is Priscilla*/
+.custom-image1 {
+  width: 5.7em;
+  margin-right: 4.5em;
 }
-
-.margaret {
-  width: 13em;
-  padding-left: 32em;
-  padding-top: 2em;
+/*This is Salt*/
+.custom-image2 {
+  width: 6.1em;
+  margin: 0%;
 }
+ .custom-image3 {
+  margin-right: 4.5em;
+ }
 
-.radical {
-  width: 13em;
-  padding-left: 32em;
-  padding-top: 2em;
-}
 
+/*This is the movie images in the cart pages*/
+
+.transformers,
+.margaret,
+.radical,
 .savages {
   width: 13em;
-  padding-left: 32em;
-  padding-top: 2em;
+  max-width: 100%;
+  height: auto;
 }
-
 

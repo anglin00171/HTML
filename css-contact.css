@@ -1,5 +1,12 @@
-/* contact page*/
+/* checkout page*/
 
 .form__input {
-    display: block;
+    
+}
+
+.checkout-form {
+    max-width: 600px;
+    padding-left: 5em;
+    padding-bottom: 2em;
+    color: #FFFFFF;
 }

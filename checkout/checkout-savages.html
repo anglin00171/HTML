@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta name="description" content="This is the checkout page for savages">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>checkout-savages</title>
+     <link href="../styles.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     
+     <link rel="icon" href="favicon.ico">
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+     <link rel="stylesheet" href="../picturestyles.css">
+     <link rel="stylesheet" href="../css-contact.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Arima:wght@700&family=Epilogue:wght@400;700&family=Exo+2:wght@500;600;700&family=Exo:wght@500;600;700&family=Inter:wght@700&family=Lato:wght@700&family=Montserrat:wght@500;600;700&family=Mulish:ital,wght@1,600&family=Open+Sans&family=Playfair+Display:wght@500;700&family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
+ 
+    </head>
+    <body>
+    <header>
+    <a href="../index.html">
+    <img src="../assets/squareeyes-real.png" alt="squareeyes-real" class="logo">
+    </a>
+        <nav>
+            <ul>     
+                <li><a href="../index.html" class=" active">Home</a></li>
+                <li><a href="../movies.html">Movies</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+              </ul>
+         </nav>
+        <div class="cart"> 
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+  </header>
+  <main>
+    <form action="../form-success.html" class="checkout-form">
+        <fieldset>
+           <legend>Your details</legend>
+           <label for="name">Your name</label>
+           <input type="text" name="name" id="name" class="form__input" required>
+           <label for="email">Your email adress</label>
+           <input type="email" name="email" id="email" class="form__input" required>
+           <p>Select your gender</p>
+           <input type="radio" id="female" name="gender" value="female">
+           <label for="female">Female</label>
+           <input type="radio" id="male" name="gender" value="male">
+           <label for="male">Male</label>
+           <input type="radio" id="undisclosed" name="gender" value="undisclosed">
+           <label for="undisclosed">Undisclosed</label>
+        </fieldset>
+        <fieldset>
+          <legend>Delivery Information</legend>
+          <label for="Delivery">Delivery</label>
+          <input type="date" name="date" id="Delivery" class="form__input">
+          <label for="City">City</label>
+          <input type="text" name="City" id="City" class="form__input">
+          <label for="Adress">Adress</label>
+          <input type="text"" name="Adress" id="Adress" class="form__input">
+         </fieldset>
+       <input type="submit">
+     </form>
+    <a href="../form-success.html" class="button">Submit</a>
+  </main>
+     
+      <footer>
+        
+       <p>Start a conversation: Find us Here: Follow us on:</p>
+       <p>squareeyesfilm@no.com Centrum Oslo 1120  Facebook</p> 
+       <p>Facebook <i class="fab fa-facebook"></i></p>
+       <p> +47 87654321 Norway</p>
+       <p>Terms & Conditions  Privacy Policy</p>
+        
+       <p><span class="copyright">&copy;2023 SQUAREEYES, All rights Reserved</span></p>
+ 
+       </footer>
+ </body>
+ </html>

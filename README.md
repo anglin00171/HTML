@@ -1,5 +1,5 @@
 Project Description: This is a school project, first year, parttime. 
-This is gonna transform from a prototype into a coded, good looking, accessible movie websait.
+This is gonna transform from a prototype into a coded, good looking, accessible movie websajt.
 The purpose is to learn about html, css and javascipt
 
 Installation: Instructions on how to install and set up the project, including any dependencies.
