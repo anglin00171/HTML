@@ -1,0 +1,33 @@
+/* Flex test */
+
+main {
+    /* This is just to provide padding on the main container*/
+    width: 100%;
+    border: 1px solid black; /* To outline where the container is*/
+    margin: auto; /* To always center the container*/
+  }
+  .flex {
+    display: flex;
+    gap: 0.5rem; /*The space between the containers*/
+    flex-wrap: wrap; /*This is to allow for wrapping*/
+    justify-content: center; /* the container always centers the content */
+  }
+
+  .flex div {
+    width: 130px;
+    text-align: center;
+    background: lightblue;
+
+    /* ------- MAKE SURE YOU TRY THE BELOW INSTRUCTIONS ------------------------------------------*/
+    flex-grow: 0; /* IF SET TO 1: This allows for all the divs to have an equal size in the container, unless it wraps. Try setting it to 1, and see what happens */
+    /* -------------------------------------------------*/
+
+    flex-direction: column; /* This allows for any element inside the div to stack like a column*/
+    padding: 1em;
+  }
+
+  .img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image does not exceed its container */
+  }
