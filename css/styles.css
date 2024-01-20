@@ -1,29 +1,61 @@
 
-@media screen {
-    max-width: 600px;
-    
-}
-
 body {
     font-family: 'Exo 2', Tahoma, Geneva, Verdana, sans-serif;
+    
     }
 
 main {
-    background-color: #000;
+    background-color: #000000;
+    margin-top: -1.6em;
+    margin-bottom: -2.2em;
+    h3 {
+        margin-left: 0.6em;
+    }
+    p {
+        color: #ffff;
+    }
     
 }
 
 .logo {
-    width: 10em;
+    width: 4em;
     height: auto;
     padding-top: 0.4em;
-    padding-left: 0.5em;
     }
 
     header {
     height: auto;
     width: 100%;
     background-color: #000;
+    border: 1px solid rgb(0, 0, 0); /* To outline where the container is*/
+    margin: auto; /* To always center the container*/
+
+    }
+
+    header,
+    nav, 
+    ul, 
+    li {
+    display: flex;
+    gap: 2rem ;
+
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    .cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fefafa;
+        font-size: 1.5em;
+        cursor: pointer;
+        max-width: 100%;
+        height: auto;
+    
     }
 
 /*Container is to about nd contact page*/
@@ -37,7 +69,8 @@ main {
     padding: 5em 4em;
 }
 
-.container
+
+.container 
     h1,
     h2 {
     color: #9e0096;
@@ -46,11 +79,35 @@ main {
 
 /*This is for contact info and.sign-up-matterful*/
 
-.white-label
+.white-label {
+    color: #FFFFFF;
+    font-weight: 100;
+    font-family: montserrat;
+    font-size: 14px;
+    margin-left: 0.4em;
+    
+}
 
+.white-label {
+#text {
+        display: block;
+            margin-bottom: 10px;
+    
+    }
+    
+    #dirname {
+        width: 100%;
+        max-width: 200px;
+        padding: 10px;
+        box-sizing: border-box;
+        vertical-align: text-top;
+    }
+
+}
 .sign-up-matterful {
     max-width: 100%;
     height: auto;
+    
 }
 
 .white-contact-text {
@@ -85,20 +142,21 @@ main {
     font-family: exo;
 }
 
-
 /*This is to all h1-h6*/
 
     h1 {
     font-family: 'Exo 2', Arial, verdana, sans-serif;
     font-size: 32px;
-    margin-left: 0.5em;
+    margin-left: 1em;
+    
 }
+
     h2 {
     font-family: "Exo 2", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: #000;
     
 }
+
     h1,
     h2,
     h3,
@@ -109,9 +167,24 @@ main {
 
 }
     h4 {
-    font-size: 14px;
+    font-size: 16px;
 }
     
+h5 {
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 0.3em;
+    font-family: playfair display;
+}
+
+h6 {
+    margin-left: 0.5em;
+    font-size: small;
+    font-weight: 300;
+    margin-top: -2em;
+    font-family: montserrat;
+}
+
     aside p {
     font-size: 13px;
     color: #B7AA91;
@@ -120,12 +193,18 @@ main {
 
 aside {
     background-color: #000;
+    margin-top: 3em;
+    margin-bottom: 2em;
+
 }
 
-#aside-4pic-down {
-    display: flex;
-    margin-top: 2em;
-    background-color: #000;
+aside .submit-button {
+    background-color: #139e4f;
+    color: #FFFFFF;
+    margin-left: 0.1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 aside h4 {
@@ -134,9 +213,28 @@ aside h4 {
     height: auto;
  }
 
+ /* This is for links in nav */
+
+ nav {
+    display: flex;
+ }
+
 nav li {
     max-width: 100%;
     height: auto;
+    margin-right: 1.5em;
+    display: flex;
+  }
+
+/* NAV */
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
    
 nav a {
@@ -145,16 +243,16 @@ nav a {
     padding: 0.5em;
     max-width: 100%;
     height: auto;
-    display: inline-block;
-    margin: 0 10px;
 
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 1em;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1em;
     max-width: 100%;
     height: auto;
 }
@@ -170,24 +268,36 @@ nav a:hover {
 }
 
 .button {
-    background-color: #60005c;
-    border-radius: 6em;
-    padding: 1em 4em;
-    text-decoration: none;
-    max-width: 100%;
-    height: auto;
-    color: #ffff;
+    background-color: #ffffff;
+    
 }
 
-.button-watch-now {
-    background-color: #60005c;
-    border-radius: 6em;
-    padding: 1em 4em;
+main .margin-0-auto {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+    .button-watch-now {
+    background-color: #9a0079;
+    border-radius: 5px;
+    font-family: exo;
+    font-size: larger;
+    padding: 15px;
     text-decoration: none;
     max-width: 100%;
     height: auto;
-    margin-left: 5em;
+    width: 12em;
+    margin-left: 1.8em;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    }
 }
 
 .button:
@@ -196,50 +306,21 @@ nav a:hover {
 }
 
 .cta-trailer {
-    background-color: #60005c;
-    border-radius: 4em;
-    padding: 0.9em 2em;
-    text-decoration: none;
-    color: #FFFFFF;
-    max-width: 100%;
-    height: auto;
+    background-color: #ffffff;
+   
 }
 
 .cta-add-to-cart {
-    background-color: #60005c;
-    color: #FFFFFF;
-    border-radius: 4em;
-    padding: 0.9em 2em;
-    text-decoration: none;
-    max-width: 100%;
-    height: auto;
-
+    background-color: #ffffff;
 }
 
 .cta-checkout {
-    background-color: #000;
-    border-radius: 4em;
-    padding: 1em 3em;
-    text-decoration: none;
-    max-width: 100%;
-    height: auto;
-    
-    
-}
-
-.cart {
-
-    display: flex;
-    color: #fefafa;
-    font-size: 1.5em;
-    cursor: pointer;
-    max-width: 100%;
-    height: auto;
 
 }
 
 footer {
     background-color: #000;
+    margin-top: 2.5em;
 }
     
 footer p {
@@ -265,5 +346,16 @@ footer .copyright {
     font-style: italic;
     max-width: 100%;
     height: auto;
+}
+
+/* This is on movies.html */
+
+.footer-margin-top {
+    margin-top: -2.5em;
+
+}
+
+.margin-top-aside {
+    margin-top: -2.9em;
 }
  

@@ -1,0 +1,44 @@
+ /* Flex for 4 small images in bottom index page*/
+aside {
+    
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0); 
+    margin: auto; /* To always center the container*/ 
+  }
+
+ aside img {
+    width: 8em;
+}
+
+  .flex4 {
+
+    display: flex;
+    gap: 0.1rem ; 
+    flex-wrap: wrap; 
+    justify-content: left; 
+    h4 {
+      font-weight: 200;
+    }
+  }
+
+  .flex4 div {
+    width: 150px;
+    text-align: center;
+    background: #000000;
+    margin-right: 0.3em;
+
+     
+    flex-grow: -1; 
+    
+
+    flex-direction: column;
+    padding-top: 0.4em;
+
+  }
+
+  .img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%;
+
+  }

@@ -13,7 +13,7 @@
      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
      <link rel="stylesheet" href="/css/picturestyles.css">
-     <link rel="stylesheet" href="css-contact.css">
+     <link rel="stylesheet" href="/css-contact.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,24 +25,22 @@
   <a href="index.html">
     <img src="assets/squareeyes-real.png" alt="Logo for movie website called Squareeyes" class="logo">
     </a>
-        <nav>
-            <ul>
-                
-                <li><a href="index.html">Home</a></li>
-                <li><a href="movies.html">Movies</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-               </ul>
+    <nav>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="movies.html">Movies</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
         </nav>
         <div class="cart"> 
         <i class="fas fa-shopping-cart"></i>
         </div>
    </header>
    <main>
-
       <section class="background-image2">
-      <div class="container">
-      <div class="white-contact-text">
+         <div class="container">
+         <div class="white-contact-text">
       <h1>Contact Us</h1>
       
       <p>We value your feedback and welcome your suggestions. 
@@ -51,7 +49,7 @@
         squareeyesfilm@no.com or fill out our Form.</p>
       </div>
     </div>
-     
+   <aside>
     <form action="contact-submit.html" class="white-label">
        <fieldset>
           <legend>Your details</legend>
@@ -69,16 +67,14 @@
        </fieldset>
        <fieldset>
           <legend>What you wanna say?</legend>
-          <label id="text"></label>
+          <label for="dirname" id="text">Message:</label>
           <input type="text" name="text" id="dirname" class="form__input">
        </fieldset>
-       <input type="submit">
+       <input type="submit" value="submit" class="submit-button">
       </form>
-       <a href="contact-submit.html" class="button">Submit</a>
-
-    </section>
+    </aside>
+   </section>
     </main>
-    
      <footer>
        
       <p>Start a conversation: Find us Here: Follow us on:</p>
