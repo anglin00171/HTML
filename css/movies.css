@@ -1,0 +1,70 @@
+
+/*Flex on Movies*/
+
+main {
+  width: 100%;
+  border: 1px solid #fff;
+  margin: auto;
+}
+
+.flex-movies {
+  display: flex;
+  column-gap: 22rem;
+  margin-top: -10em;
+  padding-top: 10em;
+  flex-wrap: wrap; 
+  justify-content: center;
+
+   }
+  
+   .flex-movies div {
+    width: 150px;
+    text-align: left;
+    background: #101010;
+    margin: 2em;
+
+    flex-grow: 0.5; 
+    flex-direction: row; 
+    
+  }
+
+  .flex-movies cta-add-to-cart {
+    col
+
+  }
+
+  .cta-trailer {
+    margin-left: 0.2em;
+    font-size: 20px;
+    
+}
+.cta-trailer:hover {
+    text-transform: uppercase;
+    color: #fb55fa
+}
+
+.cta-add-to-cart {
+    margin-left: 2em;
+    margin-top: 0.5em;
+}
+.cta-add-to-cart:hover {
+    text-transform: capitalize;
+    color: #0000ff;
+}
+
+   #trans,
+   #margaret,
+   #sav,
+   #radical {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    padding-top: 2.5em;
+    width: 80%;
+   }
+
+ /* This is on movies.html */
+
+.transformers {
+
+}

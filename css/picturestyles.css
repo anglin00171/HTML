@@ -12,30 +12,56 @@
 .background-light {
   background-image: url(../images/light-sideways.jpg);
   background-size: cover;
-  display: flow-root;
-
-  #logo-big-index {
+  
+    #logo-big-index {
     width: 15em;
     max-width: 100%;
     height: auto;
-    display: flow-root;
+   
   }
   
 }
-
 /* about page*/
 
 .background-image1 {
   background-image: url(../images/istock-about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 2em;
-  min-height: 400px;
+  min-height: 200px;
   max-width: 100%;
-  margin-top: 1.6em;
 
 }
+.container2 {
+  margin-left: 2em;
+  h1 i {
+    margin-left: -0.1em;
+    font-weight: bold;
+    color: #8753CF
+  }
 
+h2 {
+  color: #fff1f1;
+  font-style: italic;
+  font-size: 22px;
+  margin-left: -0.2em;
+}
+
+h2:hover {
+  color: blue;
+  text-transform: uppercase;
+}
+
+  h3 {
+    color: #cecece;
+    font-weight: 500;
+    margin-left: 0em;
+  }
+  h4 {
+    font-family: "Arima Madurai";
+    font-size: 24px;
+  }
+
+}
 /* contact page */
 
 .background-image2 {
@@ -47,7 +73,6 @@
   height: auto;
   margin-top: 1em;
 }
-
 /* This is contact-submit page*/
 
 .background-image3 {
@@ -60,7 +85,7 @@
 #semi-circle {
  border-radius: 50%;
  height: auto;
- width: 30em;
+ width: 25em;
  max-width: 100%;
  
 }
@@ -70,92 +95,6 @@
    height: auto;
    text-align: right;
 }
-
-/*This is the movies an h2 text on index page*/
-
-.talkexcrerad-text {
-  display: flex;
-  max-width: 100%;
-  height: auto;
-  margin-left: 1.5em;
-  
-}
-
-.talkexcrerad-text h2 {
-  color: #ffff;
-}
-
-.talkexcrerad {
-  display: flex;
-  max-width: 100%;
-  height: auto;
-  float: right;
-  margin-bottom: 1em;
-
-
-  #talk {
-    width: 9.6em;
-    margin: 1px;
-    max-width: 100%;
-    height: auto;
-    
-  }
-
-  #creator {
-    width: 8em;
-    margin: 1px;
-    max-width: 100%;
-    height: auto;
-  }
-
-  #radical {
-    width: 8.1em;
-    margin: 1px;
-    max-width: 100%;
-    height: auto;
-  }
-
-  #ex {
-    width: 7.9em;
-    margin: 1px;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /*white movies is on the movie page*/
-
- .white-movies {
-  font-size: 18px;
-  color: #ffff;
-  max-width: 100%;
-  height: auto;
-  padding-left: 0.5em;
-  
- }
-
- .movie-images1,
- .movie-images2,
- .movie-images3,
- .movie-images4 {
-  width: 13em;
-  max-width: 100%;
-  height: auto;
-  padding-left: 0.5em;
-  
- }
-
- #trans {
-  width: 11em;
-  max-width: 100%;
-  height: auto;
- }
-
- #sav {
-  width: 11em;
-  max-width: 100%;
-  height: auto;
- }
-
 /*This is 4 small images down at the footer*/
 
 .custom-image1,
@@ -167,32 +106,25 @@
   
 }
 
-
 /*This is Priscilla*/
-
+.custom-image1 {
+  width: 5.8em;
+}
 
 /*This is Salt*/
 .custom-image2 {
-  width: 6.1em;
+  width: 6.2em;
   margin: 0%;
 }
+
+/*Hunger*/
  .custom-image3 {
+  width: 8.8em;
   margin-right: 4.5em;
   padding-top: 3.7em;
  }
 
  .custom-image4 {
+  width: 8.8em;
 padding-top: 3.7em;
  }
-
-/*This is the movie images in the cart pages*/
-
-.transformers,
-.margaret,
-.radical,
-.savages {
-  width: 13em;
-  max-width: 100%;
-  height: auto;
-}
-

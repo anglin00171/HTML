@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 100%;
+    height: auto;
+}
+main #payment-form {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 3em;
+}
+
+aside {
+    margin-bottom: 2em;
+}
+
+form {
+    max-width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin-left: 0em;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+#payment-form {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    color: #dddddd;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 3em;
+}
+
+#cta-pay {
+    max-width: 100%;
+    max-height: auto;
+    background-color: #0000ff;
+    padding: 0.5em 7em;
+    border-radius: 2px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#cta-pay:hover {
+    background-color: #ffffff;
+    color: #0000ff;
+}
+

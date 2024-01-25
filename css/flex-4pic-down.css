@@ -1,9 +1,8 @@
  /* Flex for 4 small images in bottom index page*/
 aside {
-    
-    width: 100%;
-    border: 1px solid rgb(0, 0, 0); 
-    margin: auto; /* To always center the container*/ 
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto; /* To always center the container*/
   }
 
  aside img {
