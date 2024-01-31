@@ -1,13 +1,9 @@
  /* Flex for 4 small images in bottom index page*/
 aside {
-    width: 100%;
-    border: 1px solid rgb(0, 0, 0);
-    margin: auto; /* To always center the container*/
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
   }
-
- aside img {
-    width: 8em;
-}
 
   .flex4 {
 
@@ -25,19 +21,49 @@ aside {
     text-align: center;
     background: #000000;
     margin-right: 0.3em;
-
-     
-    flex-grow: -1; 
-    
-
     flex-direction: column;
     padding-top: 0.4em;
 
   }
 
   .img {
-    display: block;
+    display: flex;
     margin: 0 auto; /* Center the image horizontally */
     max-width: 100%;
 
   }
+
+  /*This is 4 small images down at the footer*/
+
+.custom-image1,
+.custom-image2,
+.custom-image3,
+.custom-image4 {
+  height: auto;
+  max-width: 100%;
+  
+}
+
+/*This is Priscilla*/
+.custom-image1 {
+  width: 5.8em;
+}
+
+/*This is Salt*/
+.custom-image2 {
+  width: 6.2em;
+  margin: 0%;
+}
+
+/*Hunger*/
+ .custom-image3 {
+  width: 8.8em;
+  margin-left: 1.5em;
+  padding-top: 3.7em;
+ }
+
+ .custom-image4 {
+  width: 8.8em;
+  margin-left: 1.5em;
+  padding-top: 3.7em;
+ }

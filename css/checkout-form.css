@@ -1,10 +1,13 @@
-/* checkout page*/
+/* CHECKOUT form*/
+
 fieldset {
  border: none;
+ 
 }
 
 main .checkout-form {
     padding-bottom: 3em;
+    max-width: 400px;
 }
 
 form {
@@ -15,17 +18,18 @@ form {
     font-size: 14px;
     color: beige;
     margin-left: 1em;
+    margin-right: 2.2em;
 }
 
 label {
     display: flex;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 input {
     width: 100%;
     padding: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 22px;
 }
 
 .cta-proceed-pay {
@@ -33,7 +37,7 @@ input {
     height: auto;
     background-color: blue;
     font-weight: 100;
-    padding: 8px 3.2em;
+    padding: 8px 3.4em;
     border-radius: 2px;
     color: #fff;
     text-decoration: none;
@@ -46,6 +50,8 @@ input {
     background-color: #ffffff;
     color: blue;
 }
-       
-/* Contact */
+
+h1 {
+    margin-left: 0.7em;
+}
 

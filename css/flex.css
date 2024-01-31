@@ -13,7 +13,7 @@ main {
     margin-top: -10em;
     padding-top: 10em;
     flex-wrap: wrap; 
-    justify-content: center; /* the container always centers the content */
+    justify-content: center;
     p {
       font-size: 14px;
     }

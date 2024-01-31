@@ -13,7 +13,7 @@
      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-     <link rel="stylesheet" href="../css/contact.css">
+     <link rel="stylesheet" href="../css/checkout-form.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,20 +40,20 @@
   <main>
     <h1>Checkout</h1>
     <form action="../payment-form/payment-margaret.html" class="checkout-form">
-        <fieldset>
-           <legend>Contact information</legend>
-           <label for="name">First name</label>
-           <input type="text" name="name" id="name" class="form__input" required>
-           <label for="name">Last name</label>
-           <input type="text" name="name" id="name" class="form__input" required>
-           <label for="email">Your email adress</label>
-           <input type="email" name="email" id="email" class="form__input" required>
-           <label for="Phone">Phone number</label>
-           <input type="number" name="number" id="number" class="form__input">
-          
+      <fieldset>
+        <h2>Your Details</h2>
+        <label for="first-name">First name</label>
+        <input type="text" name="first-name" id="first-name" class="form__input" required>
+        <label for="last-name">Last name</label>
+        <input type="text" name="last-name" id="last-name" class="form__input" required>
+        <label for="email">Your email adress</label>
+        <input type="email" name="email" id="email" class="form__input" required>
+        <label for="number">Phone number</label>
+        <input type="number" name="number" id="number" class="form__input">
+       
         </fieldset>
         <fieldset>
-          <legend>Delivery Information</legend>
+          <h2>Delivery Information</h2>
           <label for="delivery">Delivery Date</label>
           <input type="date" name="date" id="delivery" class="form__input">
           <label for="time">Convenient Time</label>

@@ -17,32 +17,31 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abel&family=Arima:wght@700&family=Epilogue:wght@400;700&family=Exo+2:wght@500;600;700&family=Exo:wght@500;600;700&family=Inter:wght@700&family=Lato:wght@700&family=Montserrat:wght@500;600;700&family=Mulish:ital,wght@1,600&family=Open+Sans&family=Playfair+Display:wght@500;700&family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
- 
 </head>
- <section>
+<body>
    <header>
     <a href="index.html">
     <img src="assets/squareeyes-real.png" alt="Logo for movie website called Squareeyes" class="logo">
     </a>
-        <nav>
-            <ul>     
-                <li><a href="index.html" class=" active">Home</a></li>
-                <li><a href="movies.html">Movies</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-         </nav>
-        <div class="cart"> 
-        <i class="fas fa-shopping-cart"></i>
+    <nav>
+      <ul>     
+        <li><a href="index.html" class=" active">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="cart"> 
+      <i class="fas fa-shopping-cart"></i>
       </div>
   </header>
   <main>
-      <section class="white">
+      <div class="white">
       <div class="total-item">
       <p>Order rewiew</p>
       <p>1 Item in cart</p>
-      <a href="transformers-cart.html" id="cart-image"></a>
-      <img src="movieimages/transformers.jpeg" alt="transformers" class="transformers">
+      <a href="transformers-cart.html"></a>
+      <img src="movieimages/transformers.jpeg" alt="transformers" id="cart-image-trans">
         
       <div class="total-item">
       <p>Total Items 1</p>
@@ -52,7 +51,7 @@
   <a href="checkout/checkout-transformers.html" class="cta-checkout">Checkout</a>
   </div>
 </div>
-</section>
+</div>
 </main>
 <aside>
   <section class="margin-cart">
@@ -60,7 +59,7 @@
   <h5>Sign up for matterful updates</h5>
   <h6>Most newsletter suck but ours won't - we promise!</h6>
   </div>
-  <form action="contact-submit.html" class="white-label">
+  <form action="contact-submit.html" class="mail-submit">
     <fieldset>
       <label for="email">Your email</label>
       <input type="email" name="email" id="email" class="form__input" required>
@@ -70,6 +69,7 @@
 </section>
 </aside>
 <footer>
+  <div class="footer-cart">
       <p>Start a conversation: Find us Here: Follow us on:</p>
       <p>squareeyesfilm@no.com Centrum Oslo 1120 </p> 
       <p>Facebook <span class="fab fa-facebook"></span></p>
@@ -82,7 +82,7 @@
         IMDb
         (https://www.imdb.com).
         Used with permission.</p></div>
-    </footer>
-
+  </div>
+</footer>
 </body>
 </html>
