@@ -57,13 +57,6 @@ main {
   }
   }
 
-  .flex-movies {
-    .cta-trailer {
-    font-size: 22px;
-    margin-top: 1em;
-    margin-left: 0;
-    }
-  }
 .cta-trailer:hover {
     text-transform: lowercase;
     background-color: #c000bd;

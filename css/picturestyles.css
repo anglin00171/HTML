@@ -103,6 +103,10 @@
   letter-spacing: -1px;
   line-height: 1.1;
 }
+legend {
+  color: #ffeeff;
+  font-size: 18px;
+}
 
 /*This is for contact and.sign-up-matterful
 The fieldset is universal thru all the pages with submit button */
@@ -166,10 +170,4 @@ fieldset {
    text-align: center;
    margin: 0 auto;
    padding: 0.5em 1em 8% 1em;
-}
-/* Image to favorites-cart. gonna do JS for interaction..*/
-
-.background-cloud {
-  background-image: url(../images/cloud-sign-in.jpg);
-  background-size: cover;
 }
