@@ -1,0 +1,27 @@
+
+.material-symbols-outlined {
+    font-size: 6em;
+    color: #00ad00;
+
+}
+.success {
+    text-align: center;
+
+}
+
+.continue-shopping {
+    text-align: center;
+    font-size: 16px;
+    background-color: #00ad00;
+    width: 8em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+footer .copyright {
+    font-size: 12px;
+    text-align: right;
+    max-width: 100%;
+    height: auto;
+}
+

@@ -1,13 +1,12 @@
 /* Image to favorites-cart. gonna do JS for interaction..*/
-body {
-    margin: 0;
-}
+
 .background-cloud {
     background-image: url(/images/cloud-sign-in.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
-    height: 25em;
+    max-height: 100%;
+
   }
   
   .favorites h1 {
@@ -16,7 +15,6 @@ body {
    font-size: 22px;
    padding: 30vh 1em;
    margin: 0;
-
   }
 
   footer {
