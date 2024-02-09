@@ -6,37 +6,43 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>About us</title>
      <link rel="stylesheet" href="/css/styles.css">
+     <link rel="stylesheet" href="/css/footer.css">
+     <link rel="stylesheet" href="/css/picturestyles.css">
+     <link rel="stylesheet" href="/css/sign-in.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
      <link rel="icon" href="favicon.ico">
+     <link rel="stylesheet" href="/css/hamburger.css">
      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-     <link rel="stylesheet" href="/css/picturestyles.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Arima:wght@700&family=Epilogue:wght@400;700&family=Exo+2:wght@500;600;700&family=Exo:wght@500;600;700&family=Inter:wght@700&family=Lato:wght@700&family=Montserrat:wght@500;600;700&family=Mulish:ital,wght@1,600&family=Open+Sans&family=Playfair+Display:wght@500;700&family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Arima:wght@700&family=Epilogue:wght@400;700&family=Exo+2:wght@500;600;700&family=Exo:wght@500;600;700&family=Inter:wght@700&family=Lato:wght@700&family=Montserrat:wght@500;600;700&family=Mulish:ital,wght@1,600&family=Open+Sans&family=Playfair+Display:wght@500;700&family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
     </head>
     <body>
-      <header>
-    <a href="index.html">
-    <img src="assets/squareeyes-real.png" alt="squareeyes-real" class="logo">
-    </a>
-    <nav>
-      <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="movies.html">Movies</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="favorites.html" aria-label="favorites"><i class="fas fa-shopping-cart"></i></a></li>
-         </ul>
+    <header>
+      <img src="assets/squareeyes-real.png" alt="squareeyes-real" class="logo">
+      <div class="burger-menu">
+        <input type="checkbox" id="burger-menu-checkbox" />
+        <label for="burger-menu-checkbox">&#9776;</label>
+        <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="favorites.html" aria-label="favorites"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
         </nav>
-        </header>
+      </div>
+    </header>
         <main>
-        <div class="background-image1"></div>
-      
+        <div class="background-image1">
+        </div>
       <section class="container2">
+        <div class="about-sign-in">
+          <p>If you already have an account? <a class="sign-in" href="sign-in.html"><sign-in>sign-in</sign-in></a></p>
+        </div>
       <h1><i>About</i> Square Eyes</h1>
       <h2>The power of movies</h2>
       <h3>SquareEyes is a movie platform with accessibility, 
@@ -51,6 +57,9 @@
         <a href="contact.html" class="contact-submit">Contact Us</a>
         </div>
       </section>
+      <div class="sign-up">
+        <p>Don't have an account?<a class="sign-up" href="sign-up.html"><sign-up>sign-up</sign-up></a></p>
+        </div>
       <aside>
       <div class="sign-up-matterful">
       <h5>Sign up for matterful updates</h5>
@@ -68,12 +77,13 @@
     <footer>
       <p>Start a conversation: Find us Here: Follow us on:</p>
       <p>squareeyesfilm@no.com Centrum Oslo 1120</p>  
-      <p>Facebook <i class="fab fa-facebook"></i></p>
+      <p><span class="fab fa-twitter"></span>
+        <span class="fab fa-facebook"></span>
+        <span class="fab fa-instagram"></span>
+        <span class="fab fa-linkedin"></span></p>
       <p> +47 87654321 Norway</p>
       <p>Terms & Conditions  Privacy Policy</p>
-       
       <p><span class="copyright">&copy;2023 SQUAREEYES, All rights Reserved.</span></p>
-
-    </footer>
+</footer>
 </body>
 </html>

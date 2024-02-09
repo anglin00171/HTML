@@ -2,26 +2,32 @@
 .material-symbols-outlined {
     font-size: 6em;
     color: #00ad00;
+    margin-top: 0.5em;
 
 }
 .success {
     text-align: center;
+    font-family: abel, Verdana, Geneva, Tahoma, sans-serif;
 
+}
+.success p {
+    margin-bottom: 1.5em;
 }
 
 .continue-shopping {
     text-align: center;
     font-size: 16px;
+    font-family: abel, Verdana, Geneva, Tahoma, sans-serif;
     background-color: #00ad00;
+    color: #fff;
     width: 8em;
-    padding: 0.5em 1em;
+    padding: 0.7em 2em;
     border-radius: 0.5em;
+    text-decoration: none;
+
 }
 
-footer .copyright {
-    font-size: 12px;
-    text-align: right;
-    max-width: 100%;
-    height: auto;
+.footer-cart {
+   margin-top: 6em;
 }
 

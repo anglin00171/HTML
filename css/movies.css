@@ -1,28 +1,28 @@
-/*Flex on Movies*/
+/* Movies */
 
 main {
   width: 100%;
-  border: 1px solid #fff;
   margin: auto;
 
 }
 
+.movie {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
 .flex-movies {
   display: flex;
-  column-gap: 22rem;
-  margin-top: -10em;
-  padding-top: 10em;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  column-gap: 10rem;
   justify-content: center;
-
-   }
+  }
   
    .flex-movies div {
-    width: 300px;
     text-align: left;
     padding: 0em 1em 0em 0.9em;
     background: #000000;
-    margin: 0em 0em 5em 0em;
     display: flex;
     flex-direction: column;
   }
@@ -69,15 +69,23 @@ main {
   .cta-add-to-cart:hover {
     text-transform: capitalize;
 }
+/* This is ID movie.html */
 
-/* This is movie.html */
    #trans,
    #margaret,
    #sav,
    #radical {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 0.1em; 
     max-width: 100%;
     padding-top: 2.5em;
     width: 67%;
+   }
+
+   #trans {
+    width: 72%;
+   }
+   #radical {
+    width: 65%;
    }

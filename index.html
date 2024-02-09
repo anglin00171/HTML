@@ -7,24 +7,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Index</title>
 <link href="/css/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/picturestyles.css">
+<link rel="stylesheet" href="css/flex.css">
+<link rel="stylesheet" href="/css/flex-4pic-down.css">
+<link rel="stylesheet" href="/css/favorites.css">
+<link rel="stylesheet" href="/css/footer.css">
+<link rel="stylesheet" href="/css/sign-in.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="/css/hamburger.css">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="stylesheet" href="/css/picturestyles.css">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abel&family=Arima:wght@700&family=Epilogue:wght@400;700&family=Exo+2:wght@500;600;700&family=Exo:wght@500;600;700&family=Inter:wght@700&family=Lato:wght@700&family=Montserrat:wght@500;600;700&family=Mulish:ital,wght@1,600&family=Open+Sans&family=Playfair+Display:wght@500;700&family=Roboto&family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="css/flex.css">
-<link rel="stylesheet" href="/css/flex-4pic-down.css">
-<link rel="stylesheet" href="../css/favorites.css">
 </head>
 <body>
 <header>
-  <img src="assets/squareeyes-real.png" alt="Logo for movie website called squareeyes" class="logo">
+<img src="assets/squareeyes-real.png" alt="Logo for movie website called Squareeyes" class="logo">
+  <div class="burger-menu">
+    <input type="checkbox" id="burger-menu-checkbox" />
+    <label for="burger-menu-checkbox">&#9776;</label>
   <nav>
     <ul> 
       <li><a href="index.html" class=" active">Home</a></li>
@@ -34,16 +38,15 @@
       <li><a href="favorites.html" aria-label="favorites"><i class="fas fa-shopping-cart"></i></a></li>
     </ul>
   </nav>
-  </header>
+</div>
+</header>
   <main>
-
- <div class="background-index1">
- <div class="background-light">
-  
-  <img src="assets/squareeyes-real.png" alt="Logo for movie website called squareeyes" id="logo-big-index">
+    <div class="background-index1">
+    <div class="background-light">
+    <img src="assets/squareeyes-real.png" alt="Logo for movie website called squareeyes" id="logo-big-index">
+  <p>If you already have an account? <a class="sign-in" href="sign-in.html"><sign-in>sign-in</sign-in></a></p>
   </div>
- 
-  <section class="flex">
+    <section class="flex">
      <div>
       <a href="https://www.imdb.com/video/vi3628712985/?ref_=tt_vi_i_1" target="_blank">
       <img src="images/talktome.jpeg" alt="The movie Talk to me" class="img"/></a>
@@ -68,6 +71,9 @@
   <div class="margin-0-auto"> 
    <h1>Easy access to your favorite Movies</h1>
   <a class="button-watch-now" href="movies.html">Watch Now</a></div>
+  <div class="sign-up">
+  <p>Don't have an account?<a class="sign-up" href="sign-up.html"><sign-up>sign-up</sign-up></a></p>
+  </div>
   </div>
   <h3>Upcoming releases</h3>
  </main>
@@ -111,17 +117,19 @@
 </form>
 </div>
 </aside>
-
 <footer>    
 <p>Start a conversation: Find us Here: Follow us on:</p>
 <p>squareeyesfilm@no.com Centrum Oslo 1120 </p> 
-<p>Facebook <span class="fab fa-facebook"></span></p>
+<p><span class="fab fa-twitter"></span>
+<span class="fab fa-facebook"></span>
+<span class="fab fa-instagram"></span>
+<span class="fab fa-linkedin"></span></p>
 <p> +47 87654321 Norway</p>
 <p>Terms & Conditions  Privacy Policy</p>
-<p class="copyright">&copy;2023 SQUAREEYES, All rights Reserved.</p>
-<div class="imdb"><p>Information courtesy of IMDb (https://www.imdb.com).Used with permission.
-</p>
-</div>
-</footer>
+<p><span class="copyright">&copy;2023 SQUAREEYES, All rights Reserved</span></p>
+      <div class="imdb">Information courtesy of
+      <a href="https://www.imdb.com" target="_blank" class="imdb">IMDb</a>
+      </div>
+  </footer>
 </body>
 </html>

@@ -6,8 +6,12 @@ body {
 fieldset {
     max-width: 400px;
     margin-right: 2em;
+    padding-bottom: 1.5em;
 }
 
+legend {
+    font-size: 16px;
+}
 main {
     max-width: 100%;
     height: auto;
@@ -15,13 +19,14 @@ main {
 
 main p {
     font-size: 14px;
+    color: #fff;
+    padding-right: 0.5em;
     
 }
-
 main #payment-form {
     max-width: 100%;
     height: auto;
-    padding-bottom: 3em;
+    
 }
 
 aside {
@@ -36,14 +41,14 @@ form {
 
 label {
     display: block;
-    margin-bottom: 8px;
     max-width: 400px;
 }
 
 input {
     width: 100%;
     padding: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+    border-radius: 0.3em;
 }
 
 #payment-form {
@@ -76,6 +81,7 @@ input {
 h1 {
     margin-left: 0.6em;
 }
+
 p {
     margin-bottom: 0;
     margin-left: 1.3em;
@@ -84,9 +90,9 @@ p {
 }
 
 .p-proceed {
-    margin-left: 1.2em;
+    margin-left: 0.1em;
 }
 
 #discount-code {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }

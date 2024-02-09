@@ -6,86 +6,83 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Movies</title>
      <link rel="stylesheet" href="/css/styles.css">
+     <link rel="stylesheet" href="/css/footer.css">
+     <link rel="stylesheet" href="/css/picturestyles.css">
+     <link rel="stylesheet" href="/css/movies.css">
+     <link rel="stylesheet" href="/css/sign-in.css">
+     <link rel="stylesheet" href="/css/hamburger.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
      <link rel="icon" href="favicon.ico">
      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-     <link rel="stylesheet" href="/css/picturestyles.css">
-     <link rel="stylesheet" href="/css/movies.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abel&family=Arima:wght@700&family=Epilogue:wght@400;700&family=Exo+2:wght@500;600;700&family=Exo:wght@500;600;700&family=Inter:wght@700&family=Lato:wght@700&family=Montserrat:wght@500;600;700&family=Mulish:ital,wght@1,600&family=Open+Sans&family=Playfair+Display:wght@500;700&family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
-
-</head>
-<body>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Arima:wght@700&family=Epilogue:wght@400;700&family=Exo+2:wght@500;600;700&family=Exo:wght@500;600;700&family=Inter:wght@700&family=Lato:wght@700&family=Montserrat:wght@500;600;700&family=Mulish:ital,wght@1,600&family=Open+Sans&family=Playfair+Display:wght@500;700&family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
+    </head>
+    <body>
   <header>
-    <a href="index.html" aria-hidden="true">
-    <img src="assets/squareeyes-real.png" alt="Logo for movie website called Squareeyes" class="logo">
-      </a>
-        <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="movies.html" class="active">Movies</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="favorites.html" aria-label="favorites"><i class="fas fa-shopping-cart"></i></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+      <img src="assets/squareeyes-real.png" alt="Logo for movie website called Squareeyes" class="logo">
+      <div class="burger-menu">
+        <input type="checkbox" id="burger-menu-checkbox" />
+        <label for="burger-menu-checkbox">&#9776;</label>
+      <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html" class="active">Movies</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="favorites.html" aria-label="favorites"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
     <section class="flex-movies">
-    <div>
+    <div class="movie">
     <h1>Transformers</h1>
-      <p>2007</p>
+      <h2>2007</h2>
       <p>An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.</p>
       <a href="https://www.imdb.com/video/vi513779993/?playlistId=tt0418279&ref_=tt_pr_ov_vi" target="_blank" class="cta-trailer">Watch Trailer</a>
-    </div>
-    <div>
-    <img src="movieimages/transformers.jpeg" alt="transformers" id="trans">
+      <img src="movieimages/transformers.jpeg" alt="transformers" id="trans">
+      <h4>$ 12</h4>
     <a href="transformers-cart.html" class="cta-add-to-cart">Add to cart</a>
     </div>
-     <div>
+
+    <div class="movie">
     <h1>Are You There God?
     It's Me, Margaret.</h1>
-    <p>2023</p>
+    <h2>2023</h2>
     <p>When her family moves from the city to the suburbs, 11-year-old Margaret navigates new friends, feelings, and the beginning of adolescence.</p>
     <a href="https://www.youtube.com/watch?v=LzRzojHC3iE" target="_blank" class="cta-trailer">Watch Trailer</a>
-    </div>
-        
-    <div>
     <img src="movieimages/margaret.jpeg" alt="Are you there margaret" id="margaret">
+    <h4>$ 12</h4>
     <a href="margaret-cart.html" class="cta-add-to-cart">Add to cart</a>
     </div>
-    <div>
+
+    <div class="movie">
     <h1>Radical</h1>
-    <p>2023</p>
+    <h2>2023</h2>
     <p>A teacher in a Mexican border town full of neglect, corruption, and violence, tries a radical new method to unlock their students curiosity, potential - and maybe even their genius.</p>
     <a href="https://www.imdb.com/video/vi2297218841/?playlistId=tt14570440&ref_=tt_pr_ov_vi" target="_blank" class="cta-trailer">Watch Trailer</a>
-    </div>
-      
-    <div>
     <img src="movieimages/radical.jpeg" alt="radical" id="radical">
+    <h4>$ 12</h4>
     <a href="radical-cart.html" class="cta-add-to-cart">Add to cart</a>
     </div>
-    <div>
+
+    <div class="movie">
     <h1>Savages</h1>
-    <p>2012</p>
+    <h2>2012</h2>
     <p>California entrepreneurs Ben and Chon, run a lucrative business raising marijuana and share a unique love with beautiful O. Life is idyllic, until Elena, the merciless leader of the Mexican Baja Cartel, demands a piece of the action.</p>
     <a href="https://www.imdb.com/video/vi1246414105/?ref_=nv_sr_srsg_2_tt_8_nm_0_q_savages" target="_blank" class="cta-trailer">Watch Trailer</a>
-    </div>
-  
-    <div>
     <img src="movieimages/savages.jpeg" alt="savages" id="sav">
+    <h4>$ 12</h4>
     <a href="savages-cart.html" class="cta-add-to-cart">Add to cart</a>
     </div>
   </section> 
   </main>
   <aside>
-
-      <section class="margin-top-aside">
+    <section>
       <div class="sign-up-matterful">
       <h5>Sign up for matterful updates</h5>
       </div></section>
@@ -104,17 +101,18 @@
       <div class="footer-margin-top">
       <p>Start a conversation: Find us Here: Follow us on:</p>
       <p>squareeyesfilm@no.com Centrum Oslo 1120</p>  
-      <p>Facebook <i class="fab fa-facebook"></i></p>
+      <p><span class="fab fa-twitter"></span>
+        <span class="fab fa-facebook"></span>
+        <span class="fab fa-instagram"></span>
+        <span class="fab fa-linkedin"></span></p>
       <p> +47 87654321 Norway</p>
       <p>Terms & Conditions  Privacy Policy</p>
        
       <p><span class="copyright">&copy;2023 SQUAREEYES, All rights Reserved</span></p>
-
-      <div class="imdb"><p>Information courtesy of
-        IMDb
-        (https://www.imdb.com).
-        Used with permission.</p></div>
+      <div class="imdb">Information courtesy of
+      <a href="https://www.imdb.com" target="_blank" class="imdb">IMDb</a>
       </div>
-      </footer>
+      </div>
+    </footer>
 </body>
 </html>

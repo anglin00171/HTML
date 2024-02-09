@@ -1,33 +1,30 @@
-/* Flex (that WORKS) for the 4 images at Index */
+/* Flex for the 4 images at Index */
 
 main {
     width: 100%;
-    border: 1px solid black; /* To outline where the container is*/
-    margin: auto; /* To always center the container*/
+    margin: auto;
    
   }
   .flex {
-
     display: flex;
-    gap: 0.1rem ;
-    margin-top: -10em;
-    padding-top: 10em;
-    flex-wrap: wrap; 
+    gap: 0.1rem;
+    flex-wrap: wrap;
     justify-content: center;
-    p {
+
+p {
       font-size: 14px;
     }
-  }
+
+}
 
   .flex div {
     width: 150px;
     text-align: center;
     background: #101010;
-    margin-right: 0.3em;
-
-    flex-grow: 1; 
-    flex-direction: column; 
-    padding: 0.5em;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 2em;
+    margin: 0.2em 1em;
   }
 
   .flex h2 {
@@ -37,7 +34,7 @@ main {
 
 
   .img {
-    display: block;
+    display: flex;
     margin: 0 auto; 
     max-width: 100%; 
   }

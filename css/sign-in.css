@@ -1,0 +1,83 @@
+
+.sign-in {
+    font-size: 14px;
+    color: #ff00cc;
+}
+
+.background-light {
+    p {
+        margin-left: 1em;
+        font-size: 14px;
+        font-family: epilogue, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+}
+
+.sign-up p {
+    font-size: 14px;
+    margin-left: 1em;
+    font-family: epilogue, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sign-up {
+    color: #ff00cc;
+}
+
+/* SIGN-IN and UP ON ABOUT PAGE*/
+
+.about-sign-in {
+    p {
+        font-size: 14px;
+        font-family: epilogue, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left
+        
+    }
+}
+
+.sign-in-page,
+.sign-up-page {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 300px;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sign-in-page h1 {
+    margin-left: -1em;
+    padding-left: 0.4em;
+}
+
+.sign-up-page h1 {
+    padding-left: 0.2em;
+}
+
+.button-sign-in {
+    background-color: #3d363b;
+    border-radius: 5px;
+    color:#ffffff;
+    
+}
+
+fieldset {
+    height: 10em;
+    border: none;
+}
+
+input {
+    max-width: 100%;
+    padding: 0.6em;
+    width: 16.5em;
+    border-radius: 0.5em;
+}
+
+input.sign-in {
+    margin-top: 1em;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+
+    font-family: epilogue, Verdana, Geneva, Tahoma, sans-serif
+}

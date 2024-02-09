@@ -1,0 +1,27 @@
+body { 
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+label, #burger-menu-checkbox {
+    display: none;
+}
+
+@media (max-width: 449px) {
+
+    body {background-color: #000000;}
+
+    nav, #burger-menu-checkbox {
+        display: none;
+       }
+
+label, #burger-menu-checkbox:checked ~ nav {
+           display: block;
+           color: #fff;
+           margin-left: 0.3em;
+       }
+}
+
+label, #name {
+    display: block;
+}
