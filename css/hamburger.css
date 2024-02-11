@@ -1,4 +1,4 @@
-body { 
+body {
     background-color: #000000;
     margin: 0 auto;
 }
@@ -18,10 +18,14 @@ label, #burger-menu-checkbox {
 label, #burger-menu-checkbox:checked ~ nav {
            display: block;
            color: #fff;
-           margin-left: 0.3em;
        }
+
+ .logo {
+display: none;
+}
 }
 
-label, #name {
-    display: block;
+.burger-menu {
+    font-size: 18px;
+    margin-left: 0.7em;
 }

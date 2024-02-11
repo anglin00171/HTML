@@ -1,25 +1,35 @@
+/* submit button "create an account" - "sign in"*/
 
 .sign-in {
-    font-size: 14px;
-    color: #ff00cc;
+    font-size: 16px;
+    font-family: epilogue Verdana, Geneva, Tahoma, sans-serif;
+    width: 12.9em;
+    padding-bottom: 2em;
+    padding-top: 0.6em;
+    margin-top: 0.5em;
+    color: #ff00c8;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #32202d;
 }
 
-.background-light {
-    p {
+.background-light p {
         margin-left: 1em;
         font-size: 14px;
         font-family: epilogue, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      }
+
 }
 
 .sign-up p {
     font-size: 14px;
+    color: #ffffff;
     margin-left: 1em;
     font-family: epilogue, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .sign-up {
-    color: #ff00cc;
+    color: #ff00c3;
+    font-size: 16px;
 }
 
 /* SIGN-IN and UP ON ABOUT PAGE*/
@@ -43,22 +53,20 @@
     max-width: 100%;
     justify-content: center;
     margin: 0 auto;
+    font-family: epilogue Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sign-in-page h1 {
-    margin-left: -1em;
-    padding-left: 0.4em;
+    margin-left: -6em;
+    padding-left: 1em;
+    width: 4em;
 }
 
 .sign-up-page h1 {
-    padding-left: 0.2em;
-}
-
-.button-sign-in {
-    background-color: #3d363b;
-    border-radius: 5px;
-    color:#ffffff;
-    
+ padding-left: 0.3em;
+ margin-left: -5em;
+ padding-left: 2em;
+ width: 6em;
 }
 
 fieldset {
@@ -67,17 +75,21 @@ fieldset {
 }
 
 input {
-    max-width: 100%;
-    padding: 0.6em;
-    width: 16.5em;
-    border-radius: 0.5em;
+    width: 15em;
+    height: 2em;
+    border-radius: 5px;
 }
 
-input.sign-in {
+input .sign-in {
     margin-top: 1em;
     color: #000;
     font-weight: 600;
     cursor: pointer;
-
     font-family: epilogue, Verdana, Geneva, Tahoma, sans-serif
+}
+
+@media (min-width: 451px) {
+ .in label {
+  display: block;
+ }
 }

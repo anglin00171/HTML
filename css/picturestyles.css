@@ -16,10 +16,9 @@
     width: 15em;
     max-width: 100%;
     height: auto;
-   
-  }
-  
+  } 
 }
+
 /* ABOUT */
 
 .background-image1 {
@@ -49,14 +48,19 @@
   text-transform: uppercase;
 }
   h3 {
-    color: #cecece;
+    font-family: exo Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.1em;
+  color: #cecece;
   font-weight: 500;
   margin-left: 0em;
+
   }
   h4 {
-    font-family: "Arima Madurai";
+  font-family: Arima Madurai, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24px;
-  margin-bottom: 2em;
+  font-style: oblique;
+  margin-bottom: 2.5em;
+  color: #f6f6f6;
   }
 }
 
@@ -66,52 +70,145 @@
   background-image: url(../images/camera-sky-contact.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 100%;
-  min-height: 600px;
-  height: auto;
-  padding-bottom: 2em;
-}
-
-.white-contact-text {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
-  width: 200px;
-  max-width: 100%;
-  padding-left: 0.5em;
-  legend {
-  color: #ffeeff;
-  font-size: 18px;
+  gap: 2em;
+  justify-content: space-between;
+  padding: 2em 1em;
+  padding-bottom: 3em;
 }
+
+/* contact us text*/
+
+.white-contact-text {
+  width: 250px;
+  margin-top: -2.2em;
+  margin-bottom: 2.5em;
+  font-size: 20px;
+}
+
+/* Contact us */
+
+.white-l {
+  font-family: exo, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 1em;
+  margin-top: -1.5em;
+  width: 200px;
+  justify-content: left;
+}
+
+.white-l fieldset {
+ margin-left: -0.7em;
+}
+
+.white-l input {
+  padding: 0.5em 2em;
+  border-radius: 5px;
+  width: 11em;
+}
+
+.white-l label {
+  font-size: 14px;
+  color: #ffdfff;
+}
+
+.white-l legend {
+  font-size: 18px;
+  margin-left: auto;
+  color: #e3e3e3;
+}
+
+.white-l #dirname {
+  width: 10em;
+  padding: 2.5em;
+  
+}
+
+aside .white-l .submit-button {
+  background-color: #32202d;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 0.5em;
+  font-size: 16px;
+  width: 12.7em;
+  height: 3em;
+
+}
+/**/
+h5 {
+  font-size: 28px;
+  font-weight: 100;
+  font-family: playfair display, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* sign up matterful and mail input*/
+
+ .sign-up-matterful {
+  max-width: 100%;
+  height: auto;
+  background-color: #000;
+  margin-top: -0.1em;
+  padding: 0.1em 1em;
+  color: #fff;
+
+}
+
+div .submit-button {
+  width: 15.6em;
+  height: 3em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.email label {
+  color: #f1efefee;
+  font-family: montserrat Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.email .form__input {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  width: 15em;
+  height: 2em;
+}
+/**/
+
+aside h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 100%;
+  height: auto;
 }
 
 main {
-  background-color: #000000;
-  margin-top: -1.3em;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-  h3 {
-     margin-left: 2em;
-  margin-bottom: 0px;
+  color: #ffff;
+  font-family: exo Verdana, Geneva, Tahoma, sans-serif;
  }
-  p {
-     color: #ffff;
-  font-size: 20px;
- }
+/**/
+
+/* This is for showing my labels on my contact page.
+The burgermenu is hiding my labels in my forms with the @media*/
+
+form label {
+  display: inline;
 }
+/**/
 
 /* CONTACT US button*/
 
 .contact-submit {
-  background-color: #212121;
+  background-color: #32202d;
   color: #FFFFFF;
   border-radius: 5px;
   font-family: exo;
   font-size: 22px;
-  padding: 11px;
+  padding: 1em 3.5em;
   text-decoration: none;
-  max-width: 100%;
   height: auto;
 }
 

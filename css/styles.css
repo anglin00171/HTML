@@ -1,3 +1,4 @@
+
 .logo {
     width: 6em;
     height: auto;
@@ -11,12 +12,12 @@
 
 /* Links in nav / :-burger-menu */
 
-@media (min-width: 448px) {
+@media (min-width: 447px) {
     nav li, ul {
         display: flex;
         gap: 1em;
-        margin-right: 1em;
-        flex-wrap: wrap; 
+        margin-right: 0.5em;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -44,7 +45,7 @@
 }
    
 nav a:hover {
-    color: #fb55fa;
+    color: #32202d;
 }
 
 .active {
@@ -52,60 +53,30 @@ nav a:hover {
     border-radius: 0.2em;    
 }
 
-/* Cart pages */
-
-body {
-    font-family: 'Exo 2', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.total-item {
-    #cart-image-trans,
-    #cart-image-margaret,
-    #cart-image-radical,
-    #cart-image-savages {
-        max-width: 100%;
-        height: auto;
-        width: 20em;
-        display: flex;
-        flex-wrap: wrap;
-
-}
- }
-
-fieldset {
-        border: none;
-    }
-     
 /*This is to h1-h6*/
 
     h1 {
     font-family: 'Exo 2', Arial, verdana, sans-serif;
-    font-size: 32px;
+    font-size: 30px;
+    padding-right: 0.3em;
     padding-bottom: 0.2em;
+    color: #FFFF;
 }
 
     h2 {
-    font-family: "Exo 2", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;   
+    font-family: "Exo 2", Verdana, Geneva, Tahoma, sans-serif;  
 }
-   
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-    color: #ffff;
+/* upcoming releases/ background image1*/
+   h3 {
+   margin-left: 0.8em;
+   font-weight: 500;
+   font-size: 22px;
+   color: #FFF;
+   }
 
-}
     h4 {
     font-size: 16px;
-}
-    
-h5 {
-    font-size: 22px;
-    font-weight: 100;
-    font-family: playfair display;
+    color: #FFF;
 }
 
 /* "Most newsletter suck"*/
@@ -117,109 +88,61 @@ h6 {
     margin-top: -2em;
     font-family: montserrat;
     text-align: left;
+    color: #FFF;
 
 }
 
 aside p {
-    font-size: 13px;
+    font-size: 14px;
     color: #B7AA91;
+    font-family: exo Verdana, Geneva, Tahoma, sans-serif;
     
 }
 #aside-4pic-down {
 background-color: #000;
 }
 
-/* Index and movies section email, down at sign up matterful*/
-
-/* Contact and.sign-up-matterful
-The fieldset is universal thru all the pages with submit button */
-
-.white-l {
-    font-family: exo, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-    color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    width: 200px;
-    max-width: 100%;
-    justify-content: center;
-    padding-left: 1.6em;
-  }
-    #dirname {
-        width: 100%;
-        padding: 16.5px;
-        box-sizing: border-box;
-        vertical-align: text-top;
-    }
-  
-   .sign-up-matterful {
-    max-width: 100%;
-    height: auto;
-    background-color: #000;
-    margin-top: -0.1em;
-    padding: 0.1em 1em;
-  
-  }
-
-.mail-submit {
-    background-color: #000000;
-    color: #ffffffee;
-    cursor: pointer;
-}
-
-aside .submit-button {
-    background-color: #3d0040;
-    color: #FFFFFF;
-    padding: 10px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 1em;
-}
-
-.mail-submit {
-    input {
-        max-width: 100%;
-        width: auto;
-        padding: 0.6em;
-        width: 16.5em;
-        border-radius: 0.5em;
-    }
-    
-}
-
-aside h4 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    max-width: 100%;
-    height: auto;
- }
-
 /* DIV for "easy access to your favorite movies on index page"*/
 
 div .margin-0-auto {
-    margin: 0 auto;
-    padding-left: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 1em;
     text-align: center;
+    align-items: center;
     
 
-    .button-watch-now {
-    background-color: #2d2d2d;
-    border-radius: 5px;
-    margin: 1em 2em 1em 0.5em;
+ .button-watch-now {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #32202d;
     font-family: exo;
     font-size: larger;
-    padding: 15px;
+    padding: 1em 4em;
     text-decoration: none;
-    max-width: 100%;
-    height: auto;
-    width: 11em;
+    max-width: 20%;
     color: #ffffff;
+    border-radius: 5px;
     }
+}
 
     .button-watch-now:hover {
-        color: #fb55fa;
         text-transform: uppercase;
     }
+
+    @media (max-width: 2560px) {
+        div .margin-0-auto {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+        }
+      }
+
+      @media (max-width: 2560px) {
+        .button-watch-now {
+            flex-direction: column;
+            justify-content: center;
+        }
+      }
+    
+      

@@ -7,24 +7,21 @@ main {
   }
   .flex {
     display: flex;
-    gap: 0.1rem;
     flex-wrap: wrap;
-    justify-content: center;
-
-p {
+    justify-content: space-between;
+    p {
       font-size: 14px;
     }
-
 }
 
   .flex div {
     width: 150px;
     text-align: center;
-    background: #101010;
+    background-color: #180616;
     flex-grow: 1;
-    flex-direction: column;
-    padding: 2em;
-    margin: 0.2em 1em;
+    padding: 1em;
+    margin: 0.2em 0.2em;
+    border-radius: 0.3em;
   }
 
   .flex h2 {
