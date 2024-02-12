@@ -10,7 +10,7 @@ legend {
 }
 
 main .checkout-form {
-    padding-bottom: 1.5em;
+    padding-bottom: 2em;
     max-width: 400px;
 }
 
@@ -23,10 +23,6 @@ form {
     color: beige;
     margin-left: 0.5em;
     margin-right: 2.2em;
-}
-
-label {
-    display: flex;
 }
 
 input {

@@ -16,6 +16,7 @@ legend {
 main {
     max-width: 100%;
     height: auto;
+    margin-bottom: 0.5em;
 }
 
 main p {
@@ -26,8 +27,7 @@ main p {
 }
 main #payment-form {
     max-width: 100%;
-    height: auto;
-    
+    height: auto; 
 }
 
 aside {
@@ -41,7 +41,6 @@ form {
 }
 
 label {
-    display: block;
     max-width: 400px;
 }
 

@@ -3,21 +3,32 @@
 .sign-in {
     font-size: 16px;
     font-family: epilogue Verdana, Geneva, Tahoma, sans-serif;
-    width: 12.9em;
+    width: 13em;
     padding-bottom: 2em;
     padding-top: 0.6em;
-    margin-top: 0.5em;
-    color: #ff00c8;
+    margin-top: 1em;
+    color: #ffc3f3;
     cursor: pointer;
     border-radius: 5px;
-    background-color: #32202d;
+}
+/*CTA button on sign-in an sign-up*/
+
+.sign-in-cta {
+    font-size: 16px;
+    font-family: epilogue Verdana, Geneva, Tahoma, sans-serif;
+    width: 13em;
+    padding-bottom: 2em;
+    padding-top: 0.6em;
+    margin-top: 1em;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .background-light p {
         margin-left: 1em;
         font-size: 14px;
         font-family: epilogue, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 .sign-up p {
@@ -27,8 +38,10 @@
     font-family: epilogue, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
 .sign-up {
-    color: #ff00c3;
+    margin: 0em 0.5em 0em 0.3em;
+    color: #ffc3f3;
     font-size: 16px;
 }
 
@@ -38,34 +51,28 @@
     p {
         font-size: 14px;
         font-family: epilogue, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: left
-        
+        text-align: left;   
     }
 }
 
 .sign-in-page,
 .sign-up-page {
-    color: #fff;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    width: 300px;
+    width: 270px;
     max-width: 100%;
     justify-content: center;
     margin: 0 auto;
-    font-family: epilogue Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sign-in-page h1 {
-    margin-left: -6em;
-    padding-left: 1em;
+    margin-left: -3.8em;
     width: 4em;
 }
 
 .sign-up-page h1 {
- padding-left: 0.3em;
- margin-left: -5em;
- padding-left: 2em;
+ margin-left: -1.8em;
  width: 6em;
 }
 

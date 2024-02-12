@@ -8,7 +8,7 @@
    header {
         background-color: #1c0312;
         padding-bottom: 0.1em;
-}
+   }
 
 /* Links in nav / :-burger-menu */
 
@@ -22,7 +22,7 @@
         align-items: center;
         text-align: center;
       }
-}
+  }
 
    nav li {
     max-width: 100%;
@@ -45,7 +45,7 @@
 }
    
 nav a:hover {
-    color: #32202d;
+    color: #6f4a63;
 }
 
 .active {
@@ -60,15 +60,14 @@ nav a:hover {
     font-size: 30px;
     padding-right: 0.3em;
     padding-bottom: 0.2em;
-    color: #FFFF;
 }
 
     h2 {
     font-family: "Exo 2", Verdana, Geneva, Tahoma, sans-serif;  
 }
 /* upcoming releases/ background image1*/
+
    h3 {
-   margin-left: 0.8em;
    font-weight: 500;
    font-size: 22px;
    color: #FFF;
@@ -79,38 +78,24 @@ nav a:hover {
     color: #FFF;
 }
 
-/* "Most newsletter suck"*/
-h6 { 
-    max-width: 100%;
-    height: auto;
-    font-size: small;
-    font-weight: 300;
-    margin-top: -2em;
-    font-family: montserrat;
-    text-align: left;
-    color: #FFF;
-
-}
-
 aside p {
-    font-size: 14px;
-    color: #B7AA91;
-    font-family: exo Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+color: #B7AA91;
+font-family: exo Verdana, Geneva, Tahoma, sans-serif;
     
 }
 #aside-4pic-down {
 background-color: #000;
 }
 
-/* DIV for "easy access to your favorite movies on index page"*/
+/* "easy access to your favorite movies on index page"*/
 
 div .margin-0-auto {
     margin-top: 1em;
     text-align: center;
     align-items: center;
     
-
- .button-watch-now {
+.button-watch-now {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -123,7 +108,7 @@ div .margin-0-auto {
     color: #ffffff;
     border-radius: 5px;
     }
-}
+   }
 
     .button-watch-now:hover {
         text-transform: uppercase;

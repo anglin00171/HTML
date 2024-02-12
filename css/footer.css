@@ -1,7 +1,10 @@
 
+body {
+    margin: 0 auto;
+}
 footer {
     background-color: #eaeaea;
-    padding: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0.5em;
 }
     
 footer.copyright {
@@ -34,11 +37,24 @@ footer.copyright {
     font-family: lato, Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
     color: #323232;
-    margin-top: 0.5em;
-    margin-bottom: 8em;
+    margin-top: 1em;
     font-size: 12px;
     
 }
+
+.footer-content h5 {
+    margin-top: 5px;
+}
+
 .footer-cart {
     font-family: exo Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* "start a conversation - footer" */
+
+h5 {
+    font-size: 28px;
+    font-weight: 100;
+    font-family: playfair display, Verdana, Geneva, Tahoma, sans-serif;
+  }
+  

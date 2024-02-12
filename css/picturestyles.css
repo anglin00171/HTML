@@ -30,8 +30,7 @@
 
 }
 .container2 {
-  margin: 0em 1em 3em 1em;
-  max-width: 300px;
+  margin: 0em 1em 3em 1.5em;
   h1 i {
     margin-left: -0.1em;
   font-weight: bold;
@@ -44,12 +43,13 @@
   margin-left: -0.2em;
 }
   h2:hover {
-  color: blue;
+  color: #ff00c3;
+  cursor: grabbing;
   text-transform: uppercase;
 }
   h3 {
-    font-family: exo Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.1em;
+  font-family: exo Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.1em;
   color: #cecece;
   font-weight: 500;
   margin-left: 0em;
@@ -59,9 +59,33 @@
   font-family: Arima Madurai, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24px;
   font-style: oblique;
-  margin-bottom: 2.5em;
+  margin: 1em 1em 2em 0.1em;
   color: #f6f6f6;
   }
+}
+
+@media (max-width: 238px) {
+ .contact-submit {
+  display: none;
+ }
+}
+
+/* CONTACT US button on ABOUT*/
+
+/**/
+.contact-submit {
+  background-color: #32202d;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-family: exo;
+  font-size: 22px;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+.contact-submit:hover {
+  text-transform: lowercase;
+  color: #b400b4
 }
 
 /* contact */
@@ -72,7 +96,7 @@
   background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
-  gap: 2em;
+  gap: 1em;
   justify-content: space-between;
   padding: 2em 1em;
   padding-bottom: 3em;
@@ -82,8 +106,7 @@
 
 .white-contact-text {
   width: 250px;
-  margin-top: -2.2em;
-  margin-bottom: 2.5em;
+  margin: -1em 0em 2.5em 0.1em;
   font-size: 20px;
 }
 
@@ -136,14 +159,8 @@ aside .white-l .submit-button {
   font-size: 16px;
   width: 12.7em;
   height: 3em;
-
 }
 /**/
-h5 {
-  font-size: 28px;
-  font-weight: 100;
-  font-family: playfair display, Verdana, Geneva, Tahoma, sans-serif;
-}
 
 /* sign up matterful and mail input*/
 
@@ -151,21 +168,22 @@ h5 {
   max-width: 100%;
   height: auto;
   background-color: #000;
-  margin-top: -0.1em;
+  margin-left: 0.2em;
   padding: 0.1em 1em;
   color: #fff;
-
 }
 
 div .submit-button {
   width: 15.6em;
   height: 3em;
+  margin-left: 0.5em;
+  cursor: pointer;
   border-radius: 5px;
-  text-align: center;
 }
 
 .email label {
   color: #f1efefee;
+  margin-left: 0.3em;
   font-family: montserrat Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -174,8 +192,23 @@ div .submit-button {
   flex-direction: column;
   border-radius: 5px;
   margin-bottom: 1em;
+  margin-left: 0.5em;
   width: 15em;
   height: 2em;
+}
+
+/* "Most newsletter suck"*/
+
+h6 { 
+  max-width: 100%;
+  height: auto;
+  font-size: medium;
+  font-weight: 300;
+  margin-top: -2.5em;
+  margin-left: 0.3em;
+  font-family: montserrat;
+  text-align: left;
+  color: #FFF;
 }
 /**/
 
@@ -199,24 +232,6 @@ form label {
 }
 /**/
 
-/* CONTACT US button*/
-
-.contact-submit {
-  background-color: #32202d;
-  color: #FFFFFF;
-  border-radius: 5px;
-  font-family: exo;
-  font-size: 22px;
-  padding: 1em 3.5em;
-  text-decoration: none;
-  height: auto;
-}
-
-.contact-submit:hover {
-  text-transform: lowercase;
-  color: #fb55fa
-}
-
 /* This is contact-submit page*/
 
 .background-image3 {
@@ -224,18 +239,24 @@ form label {
  background-size: cover;
  height: auto;
  max-width: 100%;
- padding-top: 1px;
+ padding-top: 4px;
 }
 
-.background-image3 p {
+.background-image3 h2, h3, h4 {
   max-width: 250px;
-  margin: 0.9em 0.5em 0em 1em;
-  line-height: 1;
+  margin: 1em 0.5em 0em 1em;
+  line-height: 1em;
+}
+
+.background-image3 h4 {
+  margin-left: 1.5em;
+  margin-top: 1em;
 }
 
 .background-image3 h1 {
-  margin-left: 0.8em;
-  font-size: 24px;
+  margin-left: 0.9em;
+  margin-bottom: -0.5em;
+  font-size: 22px;
   font-weight: lighter;
   font-style: italic;
   font-family: exo, Verdana, Geneva, Tahoma, sans-serif;
@@ -247,8 +268,8 @@ form label {
  height: auto;
  width: 20em;
  max-width: 100%;
- 
 }
+
 .map-circle {
    text-align: center;
    margin: 0 auto;

@@ -3,28 +3,38 @@
     font-size: 6em;
     color: #00ad00;
     margin-top: 0.5em;
-
 }
+
 .success {
     text-align: center;
     font-size: 18px;
+    color: black;
     margin-bottom: 3em;
     font-family: abel, Verdana, Geneva, Tahoma, sans-serif;
-
-}
-.success p {
-    margin-bottom: 2em;
 }
 
+.success h1 {
+    margin-bottom: 1.5em;
+}
+
+.cta-success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .continue-shopping {
-    text-align: center;
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
     font-family: abel, Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #00ad00;
+    background-color: #094515;
     color: #fff;
     cursor: pointer;
-    padding: 0.7em 2em;
+    padding: 0.9em 2em;
     border-radius: 0.5em;
     text-decoration: none;
+    margin-bottom: 2em;
+    margin-top: -1em;
 }
 

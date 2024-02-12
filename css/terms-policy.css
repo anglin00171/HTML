@@ -1,0 +1,17 @@
+html {
+    background-color: #eeeae5;
+}
+
+.go-back {
+    background-color: #484848;
+    color: #ffffff;
+    padding: 0.6em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}   
+
+body p {
+    margin-bottom: 2em;
+}
+

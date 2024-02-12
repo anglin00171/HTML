@@ -20,9 +20,9 @@ label, #burger-menu-checkbox:checked ~ nav {
            color: #fff;
        }
 
- .logo {
-display: none;
-}
+   .logo {
+   display: none;
+    }
 }
 
 .burger-menu {
