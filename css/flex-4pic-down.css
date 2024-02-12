@@ -10,6 +10,7 @@ aside {
     flex-wrap: wrap; 
     flex-direction: row;
     justify-content: left; 
+    padding-top: 0.5em;
     h4 {
       font-weight: 200;
     }
