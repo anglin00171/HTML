@@ -9,15 +9,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    p {
-      font-size: 14px;
-    }
+}
+
+.flex p {
+  font-size: 14px;
+  margin-top: -1em;
 }
 
   .flex div {
     width: 150px;
     text-align: center;
-    background-color: #180616;
+    background-color: #1c0312;
     flex-grow: 1;
     padding: 1em;
     margin: 0.2em 0.2em;
