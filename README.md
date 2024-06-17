@@ -1,8 +1,8 @@
 Project Description:
 
-This is a school project, first year, parttime. 
+This is a school project, parttime. 
 
-The purpose is to learn about HTML and CSS.
+The purpose is to learn to code
 
 
 Contact: anglin00171@stud.noroff.no
