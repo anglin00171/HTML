@@ -1,19 +1,7 @@
 /* Movies */
-.movie1 {
-  width: 300px;
-  margin: 10px;
-}
-
-.movie2 {
-  width: 300px;
-  margin: 10px;
-}
-
-.movie3 {
-  width: 300px;
-  margin: 10px;
-}
-
+.movie1,
+.movie2,
+.movie3,
 .movie4 {
   width: 300px;
   margin: 10px;
@@ -51,57 +39,40 @@
     line-height: 1.1;
   }
 
-  .movie1 p {
-    margin-bottom: 1.4em;
+  .movie1 p,
+  .movie2 p,
+  .movie3 p,
+  .movie4 p {
     font-size: 18px;
     font-family: exo Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .movie1 p {
+    margin-bottom: 1.4em;
   }
 
   .movie2 p {
     margin-bottom: 0.8em;
-    font-size: 18px;
-    font-family: exo Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .movie3 p {
     margin-bottom: 2.1em;
-    font-size: 18px;
-    font-family: exo Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .movie4 p {
     margin-bottom: 1em;
-    font-size: 18px;
-    font-family: exo Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  .movie1 h2 {
-    font-size: 15px;
-    font-weight: 200;
-    margin-top: -2em;
-    margin-bottom: 1em;
-  }
 
-  .movie2 h2 {
-    font-size: 15px;
-    font-weight: 200;
-    margin-top: -2em;
-    margin-bottom: 1em;
-  }
-
-  .movie3 h2 {
-    font-size: 15px;
-    font-weight: 200;
-    margin-top: -2em;
-    margin-bottom: 1em;
-  }
-
+  .movie1 h2,
+  .movie2 h2,
+  .movie3 h2,
   .movie4 h2 {
     font-size: 15px;
     font-weight: 200;
     margin-top: -2em;
     margin-bottom: 1em;
   }
+  
 
   .cta-trailer {
     background-color: #1c0312;
