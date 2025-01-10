@@ -93,7 +93,8 @@
     background-color: #643a60;
 }
 
-.cta-add-to-cart {
+.addToCart,
+.removeFromCart {
   background-color: #1c0312;
     color: #FFFFFF;
     border-radius: 5px;
@@ -106,12 +107,16 @@
     max-width: 15em;
   }
 
+  .removeFromCart {
+    display: none;
+  }
+
   .flex-movies {
     .cta-add-to-cart {
       margin-top: 1em;
     }
   }
-  .cta-add-to-cart:hover {
+  .addToCart:hover {
     text-transform: capitalize;
     background-color: #643a60;
   }

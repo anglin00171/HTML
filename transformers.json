@@ -1,0 +1,20 @@
+{
+    "data": {
+      "id": "transformers-1",
+      "title": "Transformers",
+      "description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.Action, Adventure, Sci Fi",
+      "genre": "Action, Adventure, Sci Fi",
+      "rating": "7",
+      "released": "2007",
+      "price": 12,
+      "discountedPrice": 12,
+      "onSale": false,
+      "image": {
+        "url": "https://static.cloud.noroff.dev/api/square-eyes/Transformers.jpg",
+        "alt": "A movie poster for the film Transformers"
+      },
+      "tags": ["squareeyes", "robots"],
+      "favorite": true
+    },
+    "meta": {}
+  }
